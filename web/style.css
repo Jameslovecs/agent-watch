@@ -1087,3 +1087,8 @@ dialog::backdrop {
     margin: 35px 15px;
   }
 }
+/* Keep horizontally scrollable tables inside the grid on narrow screens. */
+.grid > div,
+.panel {
+  min-width: 0;
+}
