@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.agent-watch/
+.env
+.env.*
+!.env.example
+*.log
+*.tgz
+.DS_Store
+
+sandbox-workspace/agent-watch-probe.txt

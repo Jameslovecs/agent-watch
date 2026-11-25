@@ -1,0 +1,16 @@
+{
+  "name": "agent-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:docker": "node --test test/docker.integration.mjs",
+    "image": "docker build -t agent-watch-runner:1 ."
+  }
+}
